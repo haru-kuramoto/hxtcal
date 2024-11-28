@@ -1,7 +1,7 @@
 #首振り補正値を角度で返す。
 #csvファイルを読み込ませる時、.pyのあとスペース開けて csv ファイルのパス。
 #> python kubihuri.py Book.csv
-# 実行ファイルと同じディレクトリに出力ディレクトリができるはず。
+# 実行ファイルと同じディレクトリに出力ディレクトリができる。
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
