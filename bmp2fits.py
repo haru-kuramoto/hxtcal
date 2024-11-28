@@ -6,6 +6,7 @@ from PIL import Image
 """
 BLCで取得したビットマップ(.bmp)をds9で読み込める.fits形式に変換するスクリプト。
 fitsに変換する際に、ndarrayとDS9ではy軸の向きが逆なので、上下反転して保存する。
+.fitsファイルは ./0fits_data に格納される。0をつけているのはディレクトリの最も上に表示させるため。
 usage:
 python bmp2fits.py -i /path/to/bmpdir/
 """
